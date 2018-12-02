@@ -12,7 +12,7 @@ for dir in $HOME/$VIM_RC_DIR $HOME/$VIM_RCD_DIR $NEOVIM_DIR; do
     [ ! -e $dir ] && mkdir -p $dir
 done
 
-DOT_FILES=(.gitcommit_template .gitconfig .gitignore_global .tmux.conf .vimrc .zshrc .hyper.js)
+DOT_FILES=(.gitcommit_template .gitconfig .gitignore_global .tmux.conf .vimrc .bashrc .hyper.js)
 
 VIM_RC_FILES=$(ls $DOTFILE_DIR/$VIM_RC_DIR)
 VIM_RCD_FILES=$(ls $DOTFILE_DIR/$VIM_RCD_DIR)
